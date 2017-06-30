@@ -14,6 +14,7 @@
 		94D73F5D1E9B3B080063B68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D73F5B1E9B3B080063B68F /* LaunchScreen.storyboard */; };
 		94D73F681E9B3B080063B68F /* TZYAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D73F671E9B3B080063B68F /* TZYAlertTests.swift */; };
 		94D73F731E9B3B080063B68F /* TZYAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D73F721E9B3B080063B68F /* TZYAlertUITests.swift */; };
+		94D73F811E9B3B210063B68F /* TZYAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D73F801E9B3B210063B68F /* TZYAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		94D73F6E1E9B3B080063B68F /* TZYAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZYAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D73F721E9B3B080063B68F /* TZYAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZYAlertUITests.swift; sourceTree = "<group>"; };
 		94D73F741E9B3B080063B68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D73F801E9B3B210063B68F /* TZYAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZYAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				94D73F591E9B3B080063B68F /* Assets.xcassets */,
 				94D73F5B1E9B3B080063B68F /* LaunchScreen.storyboard */,
 				94D73F5E1E9B3B080063B68F /* Info.plist */,
+				94D73F801E9B3B210063B68F /* TZYAlert.swift */,
 			);
 			path = TZYAlert;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D73F551E9B3B080063B68F /* ViewController.swift in Sources */,
+				94D73F811E9B3B210063B68F /* TZYAlert.swift in Sources */,
 				94D73F531E9B3B080063B68F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TZYAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tianziyao.TZYAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TZYAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tianziyao.TZYAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +490,7 @@
 				94D73F791E9B3B080063B68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D73F7A1E9B3B080063B68F /* Build configuration list for PBXNativeTarget "TZYAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +499,7 @@
 				94D73F7C1E9B3B080063B68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D73F7D1E9B3B080063B68F /* Build configuration list for PBXNativeTarget "TZYAlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				94D73F7F1E9B3B080063B68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let alert = TZYAlert.alert(withTitle: "提示", msg: "消息")
+        alert.addCommonButton(withTitle: "1") { (item) in
+            print(item.title)
+        }
+        alert.addCancelButton(withTitle: "3") { (item) in
+            print(item.title)
+        }
+        alert.show()
+    
     }
 
     override func didReceiveMemoryWarning() {
